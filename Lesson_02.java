@@ -49,7 +49,19 @@ public class Lesson_02 {
         System.out.println(profession);
         System.out.println(year);
 
+        byte bananas = 100;
+//        var - конструкция, которая сама определяет какой тип у переменной
+        System.out.println("Бананы: " + bananas + " кг.");
 
+        int sugar = 3;
+        float onePortion = (float) sugar / 4;
+//        будет 0 т.к. в Java принято округлять до меньшего целого числа
+        System.out.println("Одна порция сахара весит: " + onePortion + " кг.");
+
+        byte a = 1;
+        short b = 1;
+        int c = 1;
+        int d = a + b + c;
 
     }
 
