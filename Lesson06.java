@@ -68,9 +68,39 @@ public class Lesson06 {
         for (; total < 10_000_000; i++) {
             total += total / 100 + salary;
             if (i % 5 == 0) {
-                System.out.println("Mount:\t" + i + "\tTotal:\t"+total);
+                System.out.println("Mount:\t" + i + "\tTotal:\t" + total);
             }
         }
 
+
+        System.out.println('\n');
+        System.out.println("Do-While loop");
+        start = 10;
+        do {
+            System.out.println(start);
+            start--;
+        }
+        while (start > 0);
+
+        int userWantsToContinue = 1;
+        // 1 - хочет
+        // 0 - не хочет
+
+        int level = 1;
+        do {
+            System.out.println("Завершён уровень\t" + level);
+            System.out.println("Do you want to continue?");
+            level++;
+        }
+        while (userWantsToContinue == 1 && level < 5);
+
+
+        int points = 10;
+        do {
+            System.out.println("Осталось " + points + " баллов.");
+            points--;
+        } while (points >= 0);
+
+        System.out.println("Game is OVER");
     }
 }
