@@ -1,4 +1,4 @@
-public class Lesson_02 {
+public class Lesson02 {
     public static void main(String[] args) {
         System.out.println("Переменные. Урок 2");
 

@@ -1,4 +1,4 @@
-public class hw04 {
+public class HomeWork4 {
     public static void main(String[] args) {
         //        Задача 1
         //        У банка появилось мобильное приложение. Поэтому теперь, когда пользователь заходит на сайт с телефона,
