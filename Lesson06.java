@@ -102,5 +102,6 @@ public class Lesson06 {
         } while (points >= 0);
 
         System.out.println("Game is OVER");
+
     }
 }
