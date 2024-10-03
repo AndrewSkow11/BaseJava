@@ -29,11 +29,24 @@ public class Person {
         this.name = name;
     }
 
-    public int getAge(){
+    public int getAge() {
         return this.age;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public void increaseAge(int increase) {
+
+        if (increase < this.age)
+            if (increase < 0) {
+                throw new IllegalArgumentException("Возраст не может быть отрицательным!");
+            }
+        this.age += increase;
+    }
+
+//    public boolean isAdult() {
+//        return this.age > 18;
+//    }
+
+    public String toString() {
+        return "Имя: " + this.name + "\nВозраст: " + this.age;
     }
 }
