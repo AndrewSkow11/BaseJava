@@ -25,13 +25,13 @@ public class Lesson11 {
 
     public static void main(String[] args) {
         Person sarah = new Person("Sarah", 31);
-        sarah.setAge(25);
+        sarah.increaseAge(25);
         System.out.println("sarah.name = " + sarah.getName());
         System.out.println("sarah.age = " + sarah.getAge());
 
         Person john = new Person("John", 13);
         john.setName("Джон");
-        john.setAge(14);
+        john.increaseAge(14);
         System.out.println("john.name = " + john.getName());
         System.out.println("john.age = " + john.getAge());
 
